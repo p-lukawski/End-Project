@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-temp {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: black;
+}
+
+.header h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #9a9a9a;
+  border: 5px double black;
+  border-radius: 20px/8px;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  background-color: #747474;
+}
+
+.nav a:active {
+  background-color: #747474;
+  box-shadow: 0 2px #666;
+  transform: translateY(1px);
+}
+
+.container-main {
+  height: 1000vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: double black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: url(/assets/torment.jpg) no-repeat center/cover;
+  color: white;
+}
+
+.container-main select,
+button {
+  max-width: 200px;
+  background-color: #9a9a9a;
+  font-size: 18px;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+}
+
+.container-main button {
+  border: 5px double black;
+  border-radius: 20px/8px;
+}
+
+.container-main button:hover {
+  background-color: #747474;
+}
+
+.container-main button:active {
+  background-color: #747474;
+  box-shadow: 0 2px #666;
+  transform: translateY(1px);
+}
+
+.container-slider {
+  height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: double black;
+  background-color: grey;
+}
+
+.slider-item {
+  flex-grow: 1;
+  border: solid black;
+  margin: 10px 5px 10px 5px;
+}
+
+.slider-return {
+  display: flex;
+  justify-content: center;
+}
+
+.container-slider button {
+  width: 70px;
+  background-color: grey;
+  border: none;
+  border-radius: 0;
+  color: silver;
+  text-shadow: 1px 1px 1px black;
+}
+
+.container-slider button:hover {
+  background-color: #e6e6e6;
+}
+
+.container-footer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.container-work {
+  height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: double black;
+  font-size: 50px;
+  background: url(/assets/work.png) no-repeat center/cover;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.container-404 {
+  height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: double black;
+  align-items: center;
+  font-size: 50px;
+  background: url(/assets/404.png) no-repeat center/cover;
+  text-shadow: 3px 3px black;
+}
+
+.return-link {
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border: double black;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.container-story {
+  height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: double black;
+  padding-top: 10px;
+  background-color: grey;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: grey;
+  border: double black;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.container-about {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: grey;
+  border: double black;
+}
