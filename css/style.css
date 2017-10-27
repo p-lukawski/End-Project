@@ -80,7 +80,7 @@ a {
   border: double black;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: url(/assets/torment.jpg) no-repeat center/cover;
+  background-color: grey;
   color: white;
 }
 
