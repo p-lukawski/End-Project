@@ -1,6 +1,6 @@
 # End-Project
 
-Za?o?eniem projektu by?o stworzenie strony, na kt?rej m?g?bym w przysz?o?ci publikowa? swoje opowiadania, oraz dzi?ki kt?rej
-ewentualni fani mogliby si? ze mn? kontaktowa?. Technologie wykorzystane podczas tworzenia strony, to przede wszystkim React, w kt?rym
-zosta? zbudowany ca?y szkielet strony. Za warstw? graficzn? odpowiada natomiast SASS.
+Za³o¿eniem projektu by³o stworzenie strony, na której móg³bym w przysz³oœci publikowac swoje opowiadania, oraz dziêki której
+ewentualni fani mogliby siê ze mn¹ kontaktowaæ. Technologie wykorzystane podczas tworzenia strony, to przede wszystkim React, w którym
+zosta³ zbudowany ca³y szkielet strony. Za warstw¹ graficzn¹ odpowiada natomiast SASS.
 
